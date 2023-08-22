@@ -35,7 +35,7 @@ const HomeSecSeven = () => {
           top={0}
           left={0}
           width={"100%"}
-          height={"100%"}
+          height={500}
           py={10}
         >
           <Container>
@@ -49,15 +49,14 @@ const HomeSecSeven = () => {
                   alt="Testimonial icon"
                 />
               </Box>
-              <Box width={"100%"}>
+              <Box width={"80%"}>
                 <swiper-container ref={swiperRef} init="false">
                   <swiper-slide>
                     <Box>
                       <Typography variant="h6" mb={5}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         At error <br /> doloremque dolore asperiores, iure
-                        perferendis corrupti fuga rerum <br /> doloremque dolore
-                        asperiores.
+                        perferendis corrupti fuga rerum.
                       </Typography>
                       <Typography variant="h6" color={"white"}>
                         - by bittu Lee, Company CEO
@@ -68,8 +67,7 @@ const HomeSecSeven = () => {
                     <Box>
                       <Typography variant="h6" mb={5}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        At error <br /> doloremque dolore asperiores, iure
-                        perferendis corrupti fuga rerum.
+                        At error <br /> doloremque dolore asperiores.
                       </Typography>
                       <Typography variant="h6" color={"white"}>
                         - by James Bond, MI6 Agent - 007

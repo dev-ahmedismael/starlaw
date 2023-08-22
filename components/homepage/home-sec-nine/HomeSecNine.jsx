@@ -19,7 +19,7 @@ const HomeSecNine = () => {
       </Typography>
       <Grid container spacing={5}>
         {images.map((img, index) => (
-          <Grid item xs={12} sm={4}>
+          <Grid key={index} item xs={12} sm={4}>
             <AOS>
               <Box key={index} bgcolor={"white"} boxShadow={10}>
                 <img src={img} alt="blog" width={"100%"} />
